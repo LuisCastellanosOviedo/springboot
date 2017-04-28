@@ -10,7 +10,7 @@ import lombok.Data;
 public class Shop {
 
     private String name;
-    private String []locations;
+  //  private String []locations;
 
     public String getName() {
         return name;
@@ -20,11 +20,7 @@ public class Shop {
         this.name = name;
     }
 
-    public String[] getLocations() {
-        return locations;
-    }
 
-    public void setLocations(String[] locations) {
-        this.locations = locations;
-    }
+
+
 }

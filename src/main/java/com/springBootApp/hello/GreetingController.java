@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by luis on 4/27/2017.
  */
-
+//http://localhost:8081/greeting
+// http://localhost:8081/greeting?name=luis
 @Controller
 public class GreetingController {
 
